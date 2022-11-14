@@ -1,0 +1,45 @@
+#homepage_window{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#homepage_first_fold{
+    /* height: 100vh; */
+    margin: 0;
+    justify-content: center;
+    /* padding-top: 20%; */
+}
+
+#homepage_catch{
+    display: flex;
+    font-size: 450%;
+    justify-content: center;
+}
+
+#homepage_explanation{
+    /* font-size: 3vw; */
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+#homepage_buttons{
+    margin-top: 3vh;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #homepage_first_fold{
+        padding-top: 40%;
+    }
+
+    #homepage_catch{
+        font-size: 250%;
+    }
+    
+    #homepage_explanation{
+        font-size: 100%;
+    }
+    
+}

@@ -1,0 +1,35 @@
+{
+  "name": "thunderbird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/index.js",
+  "scripts": {
+    "client": "yarn --cwd client run start",
+    "server": "nodemon index",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@radar/lnrpc": "^0.11.1-beta.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "ln-service": "^51.10.1",
+    "pg": "^8.7.1",
+    "react-router-dom": "^5.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "backend/thumbnails",
+      "backend/videos",
+      "the_db.json"
+    ]
+  }
+}

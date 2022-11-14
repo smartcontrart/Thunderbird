@@ -1,0 +1,24 @@
+.searchBar{
+    width: 75%;
+}
+
+#search_results{
+    /* height: 10em; */
+    max-height: 50em;
+    width: 20em;
+    overflow: scroll;
+    z-index: 100;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    position: absolute;
+    top: calc(1.5em + 1.5rem);
+    height: auto;
+    color: black;
+    padding: 2vh;
+}
+
+.search_result_row{
+    margin-bottom: 0.75em;
+    text-align: start;
+}

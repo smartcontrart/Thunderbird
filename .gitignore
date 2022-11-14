@@ -1,0 +1,5 @@
+node_modules
+backend/videos
+backend/thumbnails
+backend/db_connection.js
+backend/database_management/pool.js

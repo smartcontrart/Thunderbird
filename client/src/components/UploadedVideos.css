@@ -1,0 +1,26 @@
+.dashboard_col{
+    /* border: solid 1px black; */
+    /* border-radius: 5px; */
+}
+
+.dashboard_row{
+border-bottom: solid 1px gray;
+}
+
+.total{
+    font-weight: bold;
+}
+
+.col_header{
+    font-weight: bold;
+}
+
+.total_row{
+    font-weight: bolder;
+    background-color: lightgray;
+    border: 0px;
+}
+
+.col_total{
+    background-color: lightgray;
+}

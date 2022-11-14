@@ -1,0 +1,61 @@
+#InfoBar_container{
+  margin-top: 2px;
+  padding: 1em 0em 1em 0em;
+  border-bottom: 1px darkgray solid;
+}
+
+#InfoBar_top{
+  margin-bottom: 1em;
+}
+
+#InfoBar_title{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  text-align: left;
+}
+
+#InfoBar_top_right{
+  font-style: italic;
+  font-size: small;
+  text-align: right;
+}
+
+#InfoBar_tip_number{
+  margin: auto;
+  text-align: left;
+}
+
+#InfoBar_tip_submission{
+  display: flex;
+  flex-direction: column;
+}
+
+#InfoBar_buytip_button{
+  padding: 0;
+}
+
+#InfoBar_views{
+  margin: auto;
+  text-align: right;
+  
+}
+
+#InfoBar_description{
+  margin: 1em 0 2em;
+}
+
+#InfoBar_description_content{
+  text-align: left;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #InfoBar_top_right{
+    text-align: left;
+  }
+
+  #InfoBar_views{
+    text-align: left;
+  }
+}

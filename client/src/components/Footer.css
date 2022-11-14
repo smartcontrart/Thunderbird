@@ -1,0 +1,90 @@
+.footer{
+    color: white;
+    background-color: rgb(53,58,63);
+    height: 4em;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer_row{
+    min-height: 50%;
+    min-height: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 3em;
+}
+
+.logo{
+    display: flex;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 2em;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter_figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0 ;
+}
+
+.twitter_image{
+    display: flex;
+    align-self: center;
+    width: 25px;
+    height: 25px;
+}
+
+.title{
+    font-weight: bolder;
+}
+
+.copyright_row{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    min-height: 2em;
+    align-items: flex-end;
+}
+
+.copyright{
+    font-size:x-small;
+    font-style: italic;
+}
+
+.footer_logo_figure{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.footer_logo_image{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        justify-content: center;
+        margin-right: 0;
+    }
+    
+  }
